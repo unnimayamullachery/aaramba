@@ -1,13 +1,10 @@
+'use client';
+
 import './globals.css';
 import { Provider } from 'react-redux';
 import { store } from '@/store/store';
 import Navbar from '@/components/Navbar';
 import { Toaster } from 'react-hot-toast';
-
-export const metadata = {
-  title: 'Aaramba - Online Jewellery Store',
-  description: 'Premium jewellery collection for all occasions',
-};
 
 export default function RootLayout({ children }) {
   return (
