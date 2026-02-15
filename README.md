@@ -2,6 +2,8 @@
 
 A full-stack production-ready e-commerce application for an online jewellery store with admin and customer personas.
 
+> ⚠️ **SECURITY NOTICE**: This repository contains **DEMO CREDENTIALS ONLY** for local development. See [SECURITY.md](SECURITY.md) for important security information.
+
 ## Features
 
 ### Admin Features
@@ -167,13 +169,17 @@ The frontend will run on `http://localhost:3000`
 
 ## Demo Credentials
 
-### Admin Account
+> ⚠️ **IMPORTANT**: These are **DEMO CREDENTIALS** for local development only. They are NOT real accounts and are reset every time you run the database seed script.
+
+### Admin Account (Demo)
 - **Email**: admin@aaramba.com
 - **Password**: admin123
 
-### Customer Account
+### Customer Account (Demo)
 - **Email**: customer@aaramba.com
 - **Password**: customer123
+
+**For production**: Create real accounts with strong passwords. Never use these demo credentials in production!
 
 ## API Endpoints
 
@@ -279,6 +285,14 @@ The frontend will run on `http://localhost:3000`
 ## License
 
 MIT
+
+## Security
+
+See [SECURITY.md](SECURITY.md) for:
+- Security best practices
+- How to handle environment variables
+- What to do if you accidentally commit secrets
+- Production security checklist
 
 ## Support
 

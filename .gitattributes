@@ -1,0 +1,9 @@
+# Mark demo credential files so security scanners know they're intentional
+SECURITY.md linguist-documentation
+ADMIN_GUIDE.md linguist-documentation
+QUICK_START.md linguist-documentation
+TESTING_GUIDE.md linguist-documentation
+README.md linguist-documentation
+
+# These contain demo credentials for local development only
+backend/prisma/seed.js linguist-generated=true
